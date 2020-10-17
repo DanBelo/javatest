@@ -8,4 +8,5 @@ public interface Dao {
     public int openAccount(Account acc);
     public int deleteAccount(Account acc);
     public int editAccount(Account acc);
+    public Account getAccount(int id);
 }
